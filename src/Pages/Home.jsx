@@ -18,7 +18,7 @@ const Home = () => {
     return (
         <div className='bg-[#f5f5f5]'>
             <Banner/>
-            {/* <TrustedStats/> */}
+            <TrustedStats/>
 
             <div className='my-8'>
                 <h2 className='text-[1.5rem] text-center text-[#001931] font-bold'>Trending Apps</h2>
