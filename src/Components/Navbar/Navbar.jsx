@@ -17,8 +17,8 @@ const Navbar = () => {
                         <li><NavLink to='/installation'>Installation</NavLink></li>
                     </ul>
                 </div>
-                <img className='w-[2rem]' src={Logo} alt="" />
-                <Link className="text-xl font-bold bg-[linear-gradient(125.07deg,#632ee3,#9f62f2_100%)] bg-clip-text text-transparent">HERO.IO</Link>
+                <Link to='/'><img className='w-[2rem]' src={Logo} alt="" /></Link>
+                <Link className="text-2xl font-bold bg-[linear-gradient(125.07deg,#632ee3,#9f62f2_100%)] bg-clip-text text-transparent">HERO.IO</Link>
             </div>
 
             <div className="navbar-center">
@@ -29,7 +29,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <Link className="btn text-white bg-[linear-gradient(125.07deg,#632ee3,#9f62f2_100%)]">
+                <Link to='https://github.com/Islamul-Hoque' className="btn text-white bg-[linear-gradient(125.07deg,#632ee3,#9f62f2_100%)]">
                 <img src={gitImg} alt="" />Contribute</Link>
             </div>
         </div>

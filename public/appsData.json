@@ -1,0 +1,363 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282017%29.svg",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 1,
+    "description": "YouTube is the world's largest video sharing platform, offering content ranging from music videos to educational and live streams. Users can subscribe, create channels, and monetize content. It also offers YouTube Shorts and YouTube Premium for ad-free viewing.",
+    "size": 180,
+    "reviews": "15M",
+    "ratingAvg": 4.3,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 350000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 625000 },
+      { "name": "5 star", "count": 8650000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/70/Discord_logo_colour.svg",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "id": 2,
+    "description": "Discord is a chat platform for communities, gamers, and professionals with text, voice, and video features. It supports custom bots, servers, roles, and Nitro upgrades for better streaming and customization.",
+    "size": 130,
+    "reviews": "2.8M",
+    "ratingAvg": 4.7,
+    "downloads": "80M",
+    "ratings": [
+      { "name": "1 star", "count": 25000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 625000 },
+      { "name": "5 star", "count": 2000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Google_Meet_icon.svg/2048px-Google_Meet_icon.svg.png",
+    "title": "Google Meet",
+    "companyName": "Google LLC",
+    "id": 3,
+    "description": "Google Meet is a secure video conferencing platform integrated with Google Workspace. It provides screen sharing, captions, breakout rooms, and recording features for professional and educational meetings.",
+    "size": 75,
+    "reviews": "1.8M",
+    "ratingAvg": 4.4,
+    "downloads": "40M",
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 1140000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Google_Drive_logo.svg",
+    "title": "Google Drive",
+    "companyName": "Google LLC",
+    "id": 4,
+    "description": "Google Drive is a cloud storage service that lets users store, share, and collaborate on files securely. Integrated with Google Docs, Sheets, and Slides for real-time editing.",
+    "size": 60,
+    "reviews": "4.5M",
+    "ratingAvg": 4.6,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 1000000 },
+      { "name": "5 star", "count": 3100000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Gmail_icon_%282020%29.svg",
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "id": 5,
+    "description": "Gmail is Google's powerful email platform with smart sorting, spam protection, and integration with Meet and Drive. It offers AI-powered smart replies and organization features.",
+    "size": 110,
+    "reviews": "6M",
+    "ratingAvg": 4.5,
+    "downloads": "150M",
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 120000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 1500000 },
+      { "name": "5 star", "count": 4000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/Google_Maps_icon.png",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 6,
+    "description": "Google Maps provides navigation, live traffic updates, street views, and business information. It also supports AR-based directions with 'Live View'.",
+    "size": 140,
+    "reviews": "10M",
+    "ratingAvg": 4.5,
+    "downloads": "200M",
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 250000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 6000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest_logo_%282017%29.svg",
+    "title": "Pinterest",
+    "companyName": "Pinterest, Inc.",
+    "id": 7,
+    "description": "Pinterest is a visual discovery and idea-saving platform where users can pin and share creative inspiration for projects, recipes, and designs.",
+    "size": 90,
+    "reviews": "2.5M",
+    "ratingAvg": 4.4,
+    "downloads": "50M",
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 70000 },
+      { "name": "3 star", "count": 180000 },
+      { "name": "4 star", "count": 700000 },
+      { "name": "5 star", "count": 1510000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/LinkedIn_Logo.svg",
+    "title": "LinkedIn",
+    "companyName": "Microsoft Corporation",
+    "id": 8,
+    "description": "LinkedIn is a professional networking platform used for job searching, hiring, and career growth. It integrates learning courses and professional branding tools.",
+    "size": 150,
+    "reviews": "3.2M",
+    "ratingAvg": 4.6,
+    "downloads": "70M",
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 2160000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9f/LastPass_Logo.svg",
+    "title": "LastPass Password Manager",
+    "companyName": "LastPass",
+    "id": 9,
+    "description": "LastPass stores and auto-fills your passwords securely in an encrypted vault. It includes password generation, notes, and dark web monitoring.",
+    "size": 55,
+    "reviews": "400K",
+    "ratingAvg": 4.4,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 10000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 40000 },
+      { "name": "4 star", "count": 120000 },
+      { "name": "5 star", "count": 210000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Spotify_logo_vertical_black.svg",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 10,
+    "description": "Spotify is a digital music and podcast streaming service with millions of tracks. It offers personalized playlists, offline mode, and cross-device playback.",
+    "size": 160,
+    "reviews": "8M",
+    "ratingAvg": 4.5,
+    "downloads": "200M",
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 2500000 },
+      { "name": "5 star", "count": 4700000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Netflix_2015_logo.svg",
+    "title": "Netflix",
+    "companyName": "Netflix Inc.",
+    "id": 11,
+    "description": "Netflix is a global streaming service offering movies, series, and documentaries. It supports personalized recommendations and offline viewing.",
+    "size": 210,
+    "reviews": "12M",
+    "ratingAvg": 4.4,
+    "downloads": "300M",
+    "ratings": [
+      { "name": "1 star", "count": 120000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 450000 },
+      { "name": "4 star", "count": 2500000 },
+      { "name": "5 star", "count": 7000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Facebook_Logo_2023.png",
+    "title": "Facebook",
+    "companyName": "Meta Platforms Inc.",
+    "id": 12,
+    "description": "Facebook connects users with friends and communities worldwide. It offers posts, stories, live streaming, and marketplace features for social interaction.",
+    "size": 220,
+    "reviews": "20M",
+    "ratingAvg": 4.2,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 1000000 },
+      { "name": "4 star", "count": 3500000 },
+      { "name": "5 star", "count": 14500000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/58/Twitter_Logo_2023.svg",
+    "title": "X (Twitter)",
+    "companyName": "X Corp.",
+    "id": 13,
+    "description": "X (formerly Twitter) is a social media platform for sharing short posts, known as tweets. It now includes audio spaces, video content, and premium verification features.",
+    "size": 95,
+    "reviews": "7M",
+    "ratingAvg": 4.1,
+    "downloads": "250M",
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 2000000 },
+      { "name": "5 star", "count": 3850000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Google_Photos_icon.svg",
+    "title": "Google Photos",
+    "companyName": "Google LLC",
+    "id": 14,
+    "description": "Google Photos backs up and organizes your photos and videos securely in the cloud. It features AI-based search, sharing, and smart albums.",
+    "size": 100,
+    "reviews": "5M",
+    "ratingAvg": 4.7,
+    "downloads": "300M",
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 4000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/db/Instagram_logo_2022.svg",
+    "title": "Instagram",
+    "companyName": "Meta Platforms Inc.",
+    "id": 15,
+    "description": "Instagram is a visual social media platform focused on photos, videos, and reels. It includes messaging, stories, and business tools for creators.",
+    "size": 150,
+    "reviews": "18M",
+    "ratingAvg": 4.4,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 3500000 },
+      { "name": "5 star", "count": 13000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/TikTok_logo.svg",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "id": 16,
+    "description": "TikTok is a short-form video platform where users create and share 15–60 second videos with music and effects. It is popular for trends and creative expression.",
+    "size": 170,
+    "reviews": "25M",
+    "ratingAvg": 4.5,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 700000 },
+      { "name": "2 star", "count": 900000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 4500000 },
+      { "name": "5 star", "count": 17000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Zoom_Communications_Logo.svg",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "id": 17,
+    "description": "Zoom is a video conferencing platform known for its simplicity and reliability. It offers breakout rooms, chat, whiteboards, and screen sharing for meetings and webinars.",
+    "size": 120,
+    "reviews": "9M",
+    "ratingAvg": 4.6,
+    "downloads": "250M",
+    "ratings": [
+      { "name": "1 star", "count": 60000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 7600000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Microsoft_Office_logo_%282019%E2%80%93present%29.svg",
+    "title": "Microsoft Office",
+    "companyName": "Microsoft Corporation",
+    "id": 18,
+    "description": "Microsoft Office includes Word, Excel, PowerPoint, and Outlook. The mobile version supports document creation, editing, and cloud sync via OneDrive.",
+    "size": 250,
+    "reviews": "4M",
+    "ratingAvg": 4.5,
+    "downloads": "150M",
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 120000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 1000000 },
+      { "name": "5 star", "count": 2550000 }
+    ]
+  },
+  {
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Canva_logo.svg",
+  "title": "Canva",
+  "companyName": "Canva Pty Ltd",
+  "id": 19,
+  "description": "Canva is a graphic design tool for creating social media posts, flyers, and presentations. It offers templates, drag-and-drop tools, and collaboration options.",
+  "size": 100,
+  "reviews": "2M",
+  "ratingAvg": 4.8,
+  "downloads": "80M",
+  "ratings": [
+    { "name": "1 star", "count": 20000 },
+    { "name": "2 stars", "count": 15000 },
+    { "name": "3 stars", "count": 30000 },
+    { "name": "4 stars", "count": 150000 },
+    { "name": "5 stars", "count": 1830000 }
+  ]
+},
+{
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Zoom_Communications_Logo.svg",
+  "title": "Zoom",
+  "companyName": "Zoom Video Communications, Inc.",
+  "id": 20,
+  "description": "Zoom is a video conferencing platform that allows users to host online meetings, webinars, and group video calls. It supports screen sharing, recording, and real-time collaboration.",
+  "size": 180,
+  "reviews": "3M",
+  "ratingAvg": 4.4,
+  "downloads": "200M",
+  "ratings": [
+    { "name": "1 star", "count": 80000 },
+    { "name": "2 stars", "count": 50000 },
+    { "name": "3 stars", "count": 120000 },
+    { "name": "4 stars", "count": 700000 },
+    { "name": "5 stars", "count": 2050000 }
+  ]
+}
+]
+

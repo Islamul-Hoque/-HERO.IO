@@ -24,7 +24,7 @@ const InstalledApps = () => {
                 </div>
             </div>
             <div>
-                <button className="btn text-white btn-success">Success</button>
+                <button className="btn bg-[#00d390] text-white ">Uninstall</button>
             </div>
         </div>
     );
