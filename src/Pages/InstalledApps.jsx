@@ -3,8 +3,8 @@ import DownloadIcon from '../../src/assets/icon-downloads.png'
 import AppIcon from '../../src/assets/demo-app (1).webp'
 import StarIcon from '../../src/assets/icon-ratings.png'
 
-const InstalledApps = ({app}) => {
-    const { image, title,  downloads, ratingAvg, size, } = app 
+const InstalledApps = ({app, handleRemove}) => {
+    const { id, image, title,  downloads, ratingAvg, size, } = app 
     return (
         <div className='flex mb-3 justify-between items-center'>
             <div className='flex items-center gap-2 '>
@@ -25,7 +25,7 @@ const InstalledApps = ({app}) => {
                 </div>
             </div>
             <div>
-                <button className="btn bg-[#00d390] text-white ">Uninstall</button>
+                <button onClick={()=>handleRemove(id) } className="btn bg-[#00d390] text-white ">Uninstall</button>
             </div>
         </div>
     );

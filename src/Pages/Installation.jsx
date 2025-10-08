@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import InstalledApps from './InstalledApps';
 import AppDetails from './AppDetails';
 import useApps from '../Hooks/useApps';
-import { loadInstalledApps } from '../Utils/LocalStorage';
+import { loadInstalledApps, removeFromInstalledApps } from '../Utils/LocalStorage';
 
 const Installation = () => {
     // const { apps, loading, error } = useApps()
@@ -25,11 +25,13 @@ const Installation = () => {
         }
     })()
 
-    // const handleRemove = id => {
-    // removeFromWishlist(id) // remove from localstorage
-    // setWishlist(prev => prev.filter(p => p.id !== id)) // for ui instant update
-    // }
-    
+    const handleRemove = id => {
+
+    removeFromInstalledApps(id) // remove from localstorage
+
+    setInstalledApps(prev => prev.filter(app => app.id !== id)) // for ui instant update
+    }
+
 
 
     return (
@@ -50,7 +52,7 @@ const Installation = () => {
 
             <div>
                 {
-                    sortedApps.map(app => <InstalledApps key={app.id} app={app}/> )
+                    sortedApps.map(app => <InstalledApps key={app.id} app={app} handleRemove={handleRemove}/> )
                 }
                 
             </div>

@@ -25,12 +25,18 @@ export const saveInstalledApps = (singleApp) => {
 
 
 // delete
-// export const removeFromWishlist = id => {
-//     const wishlist = loadWishlist()
-//     try {
-//     const updatedWishlist = wishlist.filter(p => p.id !== id)
-//     localStorage.setItem('wishlist', JSON.stringify(updatedWishlist))
-//     } catch (err) {
+export const removeFromInstalledApps = id => {
+    const installedApps =loadInstalledApps()
+    try{
+        const updatedInstalledApps = installedApps.filter(app => app.id !== id)
+        localStorage.setItem('installedApps', JSON.stringify(updatedInstalledApps))
+    }
+    catch{
+        return[]
+    }
+}
+
+
+// catch (err) {
 //     console.log(err)
 //     }
-// }
