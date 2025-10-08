@@ -6,9 +6,8 @@ import StarIcon from '../../src/assets/icon-ratings.png'
 import { Link } from 'react-router';
 
 const TrendingApps = ({app}) => {
-    const {id, image, title, ratingAvg, downloads, companyName,  description, size, reviews, ratings } =app;
-    console.log(id);
-    
+    const {id, image, title, ratingAvg, downloads } =app;
+
     return (
         <Link to={`/apps/${id}`}>
             <div className='p-4 bg-white rounded-[0.6rem] shadow hover:scale-105 transition ease-in-out'>

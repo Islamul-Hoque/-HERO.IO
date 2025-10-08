@@ -4,8 +4,9 @@ export const loadInstalledApps = () => {
         const data = localStorage.getItem('installedApps')
         return data ? JSON.parse(data) : []
     }
-    catch{
-        return []
+    catch (err) {
+    console.log(err)
+    return []
     }
 }
 
@@ -18,11 +19,10 @@ export const saveInstalledApps = (singleApp) => {
             const updatedInstalledApps = [...installedApps, singleApp]
         localStorage.setItem('installedApps', JSON.stringify(updatedInstalledApps))
     }
-    catch{
-        return []
+    catch (err) {
+    console.log(err);
     }
 }
-
 
 // delete
 export const removeFromInstalledApps = id => {
@@ -31,12 +31,7 @@ export const removeFromInstalledApps = id => {
         const updatedInstalledApps = installedApps.filter(app => app.id !== id)
         localStorage.setItem('installedApps', JSON.stringify(updatedInstalledApps))
     }
-    catch{
-        return[]
+    catch (err) {
+    console.log(err)
     }
 }
-
-
-// catch (err) {
-//     console.log(err)
-//     }
