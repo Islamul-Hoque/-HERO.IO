@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import InstalledApps from './InstalledApps';
 import AppDetails from './AppDetails';
 import useApps from '../Hooks/useApps';
+import { loadInstalledApps } from '../Utils/LocalStorage';
 
 const Installation = () => {
     // const { apps, loading, error } = useApps()
@@ -9,16 +10,16 @@ const Installation = () => {
     // if (loading) return <p>Loading.......</p>
     // const { image, title, companyName, downloads, ratingAvg, reviews, size, ratings, description } = apps
 
-    const [installedApps, setInstalledApps] = useState()
+    const [installedApps, setInstalledApps] = useState(()=> loadInstalledApps())
     const [sortOrder, setSortOrder] = useState('none')
 
     // if (!installedApps.length) return <p>No Data Available</p>
 
-    const sortedItem = (() => {
+    const sortedApps = (() => {
         if (sortOrder === 'downloads-asc') {
-            return [...installedApps].sort((a, b) => a.price - b.price)
+            return [...installedApps].sort((a, b) => a.downloads - b.downloads)
         } else if (sortOrder === 'downloads-desc') {
-            return [...installedApps].sort((a, b) => b.price - a.price)
+            return [...installedApps].sort((a, b) => b.downloads - a.downloads)
         } else { 
             return installedApps
         }
@@ -28,6 +29,7 @@ const Installation = () => {
     // removeFromWishlist(id) // remove from localstorage
     // setWishlist(prev => prev.filter(p => p.id !== id)) // for ui instant update
     // }
+    
 
 
     return (
@@ -47,8 +49,10 @@ const Installation = () => {
             </div>
 
             <div>
-                {/* <InstalledApps/> */}
-                {/* <InstalledApps/> */}
+                {
+                    sortedApps.map(app => <InstalledApps key={app.id} app={app}/> )
+                }
+                
             </div>
         </div>
     );
