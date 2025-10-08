@@ -2,13 +2,16 @@ import React from 'react';
 import TrendingApps from '../Components/TrendingApps';
 import useApps from '../Hooks/useApps';
 import { useState } from 'react';
+import { Link } from 'react-router';
+import LoadingSpinner from './LoadingSpinner';
 
 const Apps = () => {
     const { apps, loading, error } = useApps()
     const [search, setSearch] = useState('')
     const term = search.trim().toLocaleLowerCase()
     const searchedApps = term ?  apps.filter(app => app.title.toLocaleLowerCase().includes(term) ) : apps
-
+    
+    if (loading) return <LoadingSpinner />;
     return (
         <div className='m-8 '>
             <h2 className='text-[2.5rem] text-center text-[#001931] font-bold'>Our All Applications</h2>
@@ -23,13 +26,21 @@ const Apps = () => {
                 </label>
             </div>
 
-            <div className='grid md:grid-cols-4 gap-4 mt-3'>
-                {
-                    searchedApps.map( app => <TrendingApps key={app.id} app={app}/>)
-                }
-            </div>
+        {
+                searchedApps.length > 0 ? 
+                    (<div className='grid md:grid-cols-4 gap-4 mt-3'>
+                        {
+                            searchedApps.map( app => <TrendingApps key={app.id} app={app}/>)
+                        }
+                    </div> ) 
+                    : ( <div className='text-center'>
+                        <h2 className='text-[#606060] font-bold text-center  text-[2.5rem]' >No App Found</h2>
+                            <Link to='/' className="btn mb-8 mt-4 text-white bg-[linear-gradient(125.07deg,#632ee3,#9f62f2_100%)]">Go Home</Link>
+                        </div> )
+            }
         </div>
     );
 };
 
 export default Apps;
+

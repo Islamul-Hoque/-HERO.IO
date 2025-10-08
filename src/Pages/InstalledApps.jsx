@@ -2,6 +2,7 @@ import React from 'react';
 import DownloadIcon from '../../src/assets/icon-downloads.png'
 import AppIcon from '../../src/assets/demo-app (1).webp'
 import StarIcon from '../../src/assets/icon-ratings.png'
+import { toast } from 'react-toastify';
 
 const InstalledApps = ({app, handleRemove}) => {
     const { id, image, title,  downloads, ratingAvg, size, } = app 
@@ -25,7 +26,10 @@ const InstalledApps = ({app, handleRemove}) => {
                 </div>
             </div>
             <div>
-                <button onClick={()=>handleRemove(id) } className="btn bg-[#00d390] text-white ">Uninstall</button>
+                <button onClick={()=> {
+                    handleRemove(id)
+                    toast.info(`"${title}" has been uninstalled successfully! ✅`);
+                } } className="btn bg-[#00d390] text-white ">Uninstall</button>
             </div>
         </div>
     );

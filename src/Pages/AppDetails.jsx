@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useParams } from 'react-router';
+import { toast } from 'react-toastify';
 import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis, } from 'recharts'
 
 import DownloadIcon from '../../src/assets/icon-downloads.png'
@@ -8,7 +9,7 @@ import StarIcon from '../../src/assets/icon-ratings.png'
 import ReviewIcon from '../../src/assets/icon-review.png'
 import useApps from '../Hooks/useApps';
 import { loadInstalledApps, saveInstalledApps } from '../Utils/LocalStorage';
-
+import ErrorApp from './ErrorApp';
 
 const AppDetails = () => {
     const { apps, loading, error } = useApps()
@@ -17,7 +18,8 @@ const AppDetails = () => {
     const app = apps.find(app => app.id == Number(id));
     const [isInstalled, setIsInstalled] = useState(() =>  loadInstalledApps().some(app => app.id === Number(id)));
 
-    if (loading) return <p>Loading.......</p>
+    // if (loading) return <p>Loading.......</p>
+    if(!app) return <ErrorApp />;
     const { image, title, companyName, downloads, ratingAvg, reviews, size, ratings, description } = app || {}
 
     return (
@@ -47,11 +49,11 @@ const AppDetails = () => {
                     <button onClick={()=> {
                         saveInstalledApps(app)
                         setIsInstalled(true);
+                        toast.success(`"${title}" installed successfully! 🎉`)
                         }} disabled={isInstalled} className={`btn w-fit mt-2 text-white ${ isInstalled ? '!bg-[#00d390] cursor-not-allowed' : 'bg-[#00d390]' }`}>
                         {isInstalled ? 'Installed' : `Install Now (${size} MB)`} </button>
                 </div>
             </div>
-
 
             {/* Chart */}
             <div className='mt-10 border-t-1 border-b-1 py-4 border-[#00193133]'>

@@ -23,6 +23,7 @@ const TrustedStats = () => {
                         <span className='text-[0.8rem]'>31 more will Launch</span>
                     </div>
                 </div>
+
             </div>
         </div>
     );

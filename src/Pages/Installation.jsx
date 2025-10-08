@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router';
 import InstalledApps from './InstalledApps';
 import { loadInstalledApps, removeFromInstalledApps } from '../Utils/LocalStorage';
+import LoadingSpinner from './LoadingSpinner';
+import useApps from '../Hooks/useApps';
 
 const Installation = () => {
-    // if (loading) return <p>Loading.......</p>
+    const { loading } = useApps()
 
     const [installedApps, setInstalledApps] = useState(()=> loadInstalledApps())
     const [sortOrder, setSortOrder] = useState('none')
-
-    if (!installedApps.length) return <p>No Data Available</p>
 
     const convertedParseDownloads = (d) => {
         if (!d) return 0;
@@ -31,7 +32,8 @@ const Installation = () => {
     removeFromInstalledApps(id) 
     setInstalledApps(prev => prev.filter(app => app.id !== id)) 
     }
-
+    
+    if (loading) return <LoadingSpinner />;
     return (
         <div className='m-8'>
             <h2 className='text-[2.5rem] text-center text-[#001931] font-bold'>Our All Applications</h2>
@@ -50,7 +52,14 @@ const Installation = () => {
 
             <div>
                 {
-                    sortedApps.map(app => <InstalledApps key={app.id} app={app} handleRemove={handleRemove}/> )
+                    installedApps.length > 0 ? (
+                        <div> { sortedApps.map(app => <InstalledApps key={app.id} app={app} handleRemove={handleRemove}/> ) } </div>
+                        ) : (
+                            <div className='text-center'>
+                                <h2 className='text-[#606060] font-bold text-center  text-[2.5rem]' >No Installed App Found</h2>
+                                <Link to='/apps' className="btn mb-8 mt-4 text-white bg-[linear-gradient(125.07deg,#632ee3,#9f62f2_100%)]">Show All Apps</Link>
+                            </div>
+                            )
                 }
             </div>
         </div>
@@ -58,6 +67,5 @@ const Installation = () => {
 };
 
 export default Installation;
-
 
 
