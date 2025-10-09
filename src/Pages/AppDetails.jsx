@@ -4,7 +4,6 @@ import { toast } from 'react-toastify';
 import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis, } from 'recharts'
 
 import DownloadIcon from '../../src/assets/icon-downloads.png'
-import AppIcon from '../../src/assets/demo-app (1).webp'
 import StarIcon from '../../src/assets/icon-ratings.png'
 import ReviewIcon from '../../src/assets/icon-review.png'
 import useApps from '../Hooks/useApps';

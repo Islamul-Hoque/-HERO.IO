@@ -7,7 +7,6 @@ import Home from '../Pages/Home';
 import Apps from '../Pages/Apps';
 import Installation from '../Pages/Installation';
 import AppDetails from '../Pages/AppDetails';
-import ErrorApp from '../Pages/ErrorApp';
 
 const router = createBrowserRouter([
     {

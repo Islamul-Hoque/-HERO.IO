@@ -1,10 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router';
 import Error404 from '../../src/assets/error-404.png';
-
 import Navbar from '../Components/Navbar/Navbar';
 import Footer from '../Components/Footer';
-import LoadingSpinner from './LoadingSpinner';
 
 const ErrorPage = () => {
     return (

@@ -1,7 +1,5 @@
 import React from 'react';
-
 import DownloadIcon from '../../src/assets/icon-downloads.png'
-import AppIcon from '../../src/assets/demo-app (1).webp'
 import StarIcon from '../../src/assets/icon-ratings.png'
 import { Link } from 'react-router';
 

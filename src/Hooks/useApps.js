@@ -34,8 +34,6 @@ const useApps = (search = '') => {
             .finally(() => setLoading(false))
     }, [search])
 
-
-
     return { apps, loading, error, searchLoading }
 }
 

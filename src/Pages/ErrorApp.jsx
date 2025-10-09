@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { Link } from 'react-router';
 import AppError from '../../src/assets/App-Error.png';
 

@@ -3,10 +3,8 @@ import { Link } from 'react-router'
 import Banner from '../Components/Banner'
 import TrustedStats from '../Components/TrustedStats'
 import TrendingApps from '../Components/TrendingApps'
-
 import useApps from '../Hooks/useApps'
 import LoadingSpinner from './LoadingSpinner'
-
 
 const Home = () => {
     const { apps, loading, error } = useApps()

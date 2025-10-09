@@ -1,4 +1,3 @@
-// get
 export const loadInstalledApps = () => {
     try{
         const data = localStorage.getItem('installedApps')
@@ -10,7 +9,6 @@ export const loadInstalledApps = () => {
     }
 }
 
-// save
 export const saveInstalledApps = (singleApp) => {
     const installedApps = loadInstalledApps()
     try{
@@ -24,7 +22,6 @@ export const saveInstalledApps = (singleApp) => {
     }
 }
 
-// delete
 export const removeFromInstalledApps = id => {
     const installedApps =loadInstalledApps()
     try{

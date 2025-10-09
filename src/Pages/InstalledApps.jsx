@@ -1,6 +1,5 @@
 import React from 'react';
 import DownloadIcon from '../../src/assets/icon-downloads.png'
-import AppIcon from '../../src/assets/demo-app (1).webp'
 import StarIcon from '../../src/assets/icon-ratings.png'
 import { toast } from 'react-toastify';
 
@@ -35,4 +34,4 @@ const InstalledApps = ({app, handleRemove}) => {
     );
 };
 
-export default InstalledApps;
+export default InstalledApps; 
