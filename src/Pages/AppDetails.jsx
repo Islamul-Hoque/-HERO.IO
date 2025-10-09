@@ -25,7 +25,7 @@ const AppDetails = () => {
     return (
         <div className='m-8'>
             <div className='flex flex-row gap-6 items-stretch h-auto'>
-                <img className="h-full" src={AppIcon} alt="" />
+                <div className='rounded-[0.5rem] flex items-center shadow bg-white'><img className="w-full px-[1rem] h-50" src={image} alt="" /></div>
                 <div className='flex-1 flex flex-col justify-between'>
                     <h2 className='text-[1.2rem] font-bold'>{title}</h2>
                     <div className='border-b-1 pb-6 mb-4 border-[#00193133]'>Developed by <span className='text-xl font-bold bg-[linear-gradient(125.07deg,#632ee3,#9f62f2_100%)] bg-clip-text text-transparent'>{companyName}</span></div>
@@ -75,7 +75,7 @@ const AppDetails = () => {
             {/* Description */}
             <div className='my-8'>
                 <h2 className='font-bold text-[1.5rem] text-[#001931] '>Description</h2>
-                <p className='text-[#627382] mt-4'> {description} </p>
+                <p className='text-[#627382] mt-2'> {description} </p>
             </div>
 
         </div>

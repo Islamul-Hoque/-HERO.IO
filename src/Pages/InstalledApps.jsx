@@ -7,9 +7,9 @@ import { toast } from 'react-toastify';
 const InstalledApps = ({app, handleRemove}) => {
     const { id, image, title,  downloads, ratingAvg, size, } = app 
     return (
-        <div className='flex mb-3 justify-between items-center'>
+        <div className='flex mb-3 justify-between items-center rounded-[0.7rem] shadow p-4 bg-white'>
             <div className='flex items-center gap-2 '>
-                <img className='w-[4rem] rounded-[0.7rem] ' src={AppIcon} alt="" />
+                <div className='flex items-center bg-white'><img className='w-[4rem]' src={image} alt="" /></div>
                 <div>
                     <h2 className='mb-1 font-semibold text-[#001931]'>{title}</h2>
                     <div className='mb-1 gap-4 flex items-center '>

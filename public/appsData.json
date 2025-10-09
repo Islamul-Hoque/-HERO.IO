@@ -1,363 +1,362 @@
 [
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282017%29.svg",
-    "title": "YouTube",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Google_Chrome_icon_%28February_2022%29.svg/1024px-Google_Chrome_icon_%28February_2022%29.svg.png",
+    "title": "Google Chrome",
     "companyName": "Google LLC",
     "id": 1,
-    "description": "YouTube is the world's largest video sharing platform, offering content ranging from music videos to educational and live streams. Users can subscribe, create channels, and monetize content. It also offers YouTube Shorts and YouTube Premium for ad-free viewing.",
-    "size": 180,
-    "reviews": "15M",
-    "ratingAvg": 4.3,
+    "description": "Google Chrome is a free, powerful, and secure web browser developed by Google. It's designed for speed and simplicity, allowing users to load pages quickly and navigate efficiently.\n\nIt features an integrated search bar (omnibox) for searching and entering URLs.\n\nChrome offers robust security features like Safe Browsing, which warns users about dangerous sites, and a built-in password manager to securely store credentials.\n\nIt supports syncing across multiple devices, meaning bookmarks, history, and settings are consistent whether you use your phone, tablet, or computer.\n\nExtensions and themes can be added from the Chrome Web Store to customize functionality and appearance.\n\nIt is the default browser on Android and is widely used across all major operating systems (Windows, macOS, iOS, Android).\n\nKey features include incognito mode for private browsing, a task manager for monitoring performance, and developer tools for web development.\n\nIts minimalist design focuses on the content, ensuring a distraction-free browsing experience.\n\nChrome is continuously updated to ensure it remains fast and compliant with the latest web standards.\n\nIt also integrates deeply with other Google services like Gmail, Google Drive, and Google Translate for seamless online activity.",
+    "size": 125,
+    "reviews": "22M",
+    "ratingAvg": 4.6,
+    "downloads": "2B",
+    "ratings": [
+      { "name": "1 star", "count": 350000 },
+      { "name": "2 star", "count": 550000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 5500000 },
+      { "name": "5 star", "count": 14400000 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuB79MjNSFlE0-cyrc_pjYnXv7PcnM4EGXSw&s",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications, Inc.",
+    "id": 2,
+    "description": "Zoom is a leading video conferencing platform that facilitates online meetings, webinars, and group video calls for businesses, education, and social use.\n\nIt gained immense popularity for its reliability, ease of use, and ability to handle a large number of participants simultaneously.\n\nKey features include HD video and audio, virtual backgrounds, and screen sharing, which is crucial for presentations and collaboration.\n\nUsers can host breakout rooms for smaller group discussions and utilize the in-meeting chat and whiteboard features.\n\nZoom offers meeting recording capabilities, allowing sessions to be saved locally or to the cloud for later review and sharing.\n\nIt is compatible across all platforms, including Windows, macOS, iOS, and Android, providing flexibility to join meetings from anywhere.\n\nSecurity features like password protection and waiting rooms ensure that only invited participants can access a meeting.\n\nThe platform integrates with many scheduling tools and productivity apps, enhancing workflow efficiency.\n\nZoom also provides extensive administrative controls for managing users, features, and reports within an organization.\n\nIts Pro and Business plans offer advanced functionalities like longer meeting durations and dedicated support.",
+    "size": 150,
+    "reviews": "11M",
+    "ratingAvg": 4.5,
     "downloads": "500M",
     "ratings": [
-      { "name": "1 star", "count": 200000 },
-      { "name": "2 star", "count": 350000 },
-      { "name": "3 star", "count": 800000 },
-      { "name": "4 star", "count": 625000 },
-      { "name": "5 star", "count": 8650000 }
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 250000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 7100000 }
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/7/70/Discord_logo_colour.svg",
-    "title": "Discord",
-    "companyName": "Discord Inc.",
-    "id": 2,
-    "description": "Discord is a chat platform for communities, gamers, and professionals with text, voice, and video features. It supports custom bots, servers, roles, and Nitro upgrades for better streaming and customization.",
-    "size": 130,
-    "reviews": "2.8M",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png",
+    "title": "Notion",
+    "companyName": "Notion Labs, Inc.",
+    "id": 3,
+    "description": "Notion is an all-in-one workspace application that blends note-taking, task management, databases, and wikis into a single flexible platform.\n\nIt allows users to customize their workflow by creating pages that can be transformed into various formats, such as Kanban boards, calendars, or simple documents.\n\nIts block-based editor makes it highly versatile; users can insert text, images, to-do lists, code snippets, and embedded content easily.\n\nNotion is widely used by individuals and teams for planning projects, managing databases, building internal wikis, and simply organizing personal life.\n\nCollaboration is a core feature, allowing multiple team members to work on the same page in real-time and leave comments.\n\nThe application supports powerful database functionalities, where views and properties can be configured to display data in custom ways, like tables or galleries.\n\nNotion can integrate with other tools and services, though its main strength lies in keeping everything consolidated within its own ecosystem.\n\nIt offers a wide range of pre-built templates for various uses, helping beginners get started quickly with complex setups.\n\nSynchronization across web, desktop, and mobile apps is seamless, ensuring your workspace is accessible on any device.\n\nNotion's AI feature further enhances productivity by helping to summarize documents, brainstorm ideas, and draft content directly within the workspace.",
+    "size": 85,
+    "reviews": "600K",
     "ratingAvg": 4.7,
-    "downloads": "80M",
+    "downloads": "10M",
     "ratings": [
-      { "name": "1 star", "count": 25000 },
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 25000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 150000 },
+      { "name": "5 star", "count": 360000 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/premium-vector/modern-badge-logo-instagram-icon_578229-124.jpg?semt=ais_hybrid&w=740&q=80",
+    "title": "Instagram",
+    "companyName": "Meta Platforms Inc.",
+    "id": 4,
+    "description": "Instagram is a highly influential visual social media platform that centers around photo and video sharing, primarily via mobile devices.\n\nInitially launched as a simple photo-sharing app, it has evolved to include features like Stories (short, ephemeral posts), Reels (short-form videos similar to TikTok), and live video broadcasting.\n\nIt is a massive platform for creators, influencers, and businesses to build their brand and engage with a global audience through aesthetically pleasing content.\n\nUsers can apply filters and editing tools directly within the app before sharing their visual content to their main feed or stories.\n\nThe Explore tab uses powerful algorithms to recommend personalized content to users, encouraging discovery of new accounts and trends.\n\nDirect Messaging (DM) allows for private communication, including text, photos, videos, and voice messages between individuals and groups.\n\nInstagram Shopping features allow businesses to tag products in their posts, facilitating a direct path for consumers to make purchases.\n\nIts focus on visual content makes it different from text-heavy platforms, driving trends in photography, fashion, food, and travel.\n\nThe platform continually introduces new tools for creators, such as monetization options and engagement stickers in Stories.\n\nUsers can manage their privacy settings to control who sees their posts and who can interact with their profile.",
+    "size": 185,
+    "reviews": "35M",
+    "ratingAvg": 4.4,
+    "downloads": "2B",
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 1200000 },
+      { "name": "3 star", "count": 2500000 },
+      { "name": "4 star", "count": 7000000 },
+      { "name": "5 star", "count": 23500000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
+    "title": "GitHub",
+    "companyName": "GitHub, Inc. (Microsoft Subsidiary)",
+    "id": 5,
+    "description": "GitHub is the world's largest platform for software development and version control, utilizing Git to host code and manage projects.\n\nIt serves as a collaborative hub where millions of developers and companies build, ship, and maintain their software.\n\nThe core function of GitHub is hosting source code, enabling developers to use Git's distributed version control system for tracking changes.\n\nIt facilitates collaboration through features like pull requests (PRs), which allow for code review and merging contributions from multiple users.\n\nGitHub Issues is a crucial project management tool for tracking bugs, tasks, enhancements, and overall project progress.\n\nIt supports continuous integration/continuous delivery (CI/CD) pipelines through GitHub Actions, automating workflows like testing and deployment.\n\nGitHub Pages allows users to host static websites directly from their repositories, which is popular for documentation and personal sites.\n\nThe platform hosts both public open-source projects and private repositories for commercial and personal development.\n\nIts social coding features, such as following developers and starring repositories, foster a vibrant developer community.\n\nGitHub Copilot, an AI-powered code assistant, is one of its notable tools, helping developers write code faster and more efficiently.",
+    "size": 95,
+    "reviews": "1.2M",
+    "ratingAvg": 4.7,
+    "downloads": "25M",
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
       { "name": "2 star", "count": 50000 },
       { "name": "3 star", "count": 100000 },
-      { "name": "4 star", "count": 625000 },
-      { "name": "5 star", "count": 2000000 }
+      { "name": "4 star", "count": 320000 },
+      { "name": "5 star", "count": 700000 }
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Google_Meet_icon.svg/2048px-Google_Meet_icon.svg.png",
-    "title": "Google Meet",
-    "companyName": "Google LLC",
-    "id": 3,
-    "description": "Google Meet is a secure video conferencing platform integrated with Google Workspace. It provides screen sharing, captions, breakout rooms, and recording features for professional and educational meetings.",
-    "size": 75,
-    "reviews": "1.8M",
-    "ratingAvg": 4.4,
-    "downloads": "40M",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Stack_Overflow_icon.svg/2048px-Stack_Overflow_icon.svg.png",
+    "title": "Stack Overflow",
+    "companyName": "Stack Exchange, Inc.",
+    "id": 6,
+    "description": "Stack Overflow is the largest and most trusted online community for developers to learn, share their knowledge, and build their careers.\n\nIt operates as a question-and-answer platform where programmers can ask and answer technical questions across a vast range of programming topics.\n\nUsers gain reputation points for submitting good questions and, more importantly, providing helpful and highly-rated answers.\n\nIts structure ensures that the best, most correct answers are surfaced to the top through a system of upvoting and acceptance by the original poster.\n\nIt is an essential resource for virtually every programmer, serving as a first stop when encountering coding challenges or errors.\n\nStack Overflow covers a wide array of technical subjects, including specific programming languages, frameworks, algorithms, and development tools.\n\nIt is part of the broader Stack Exchange network, which hosts Q&A sites on other specialized topics beyond programming.\n\nThe platform has tools to prevent duplicate questions and to moderate content, maintaining high quality and relevance of the information.\n\nStack Overflow conducts an annual developer survey, which is a highly anticipated report on the state of the software industry.\n\nIt also offers a jobs board and talent features, connecting companies with developers based on their expertise and contribution history.",
+    "size": 30,
+    "reviews": "150K",
+    "ratingAvg": 4.5,
+    "downloads": "5M",
     "ratings": [
-      { "name": "1 star", "count": 20000 },
-      { "name": "2 star", "count": 40000 },
-      { "name": "3 star", "count": 100000 },
-      { "name": "4 star", "count": 500000 },
-      { "name": "5 star", "count": 1140000 }
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 20000 },
+      { "name": "4 star", "count": 45000 },
+      { "name": "5 star", "count": 70000 }
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Google_Drive_logo.svg",
-    "title": "Google Drive",
-    "companyName": "Google LLC",
-    "id": 4,
-    "description": "Google Drive is a cloud storage service that lets users store, share, and collaborate on files securely. Integrated with Google Docs, Sheets, and Slides for real-time editing.",
-    "size": 60,
-    "reviews": "4.5M",
+    "image": "https://www.shutterstock.com/image-vector/capcut-logo-editorial-icon-isolated-600nw-2563301725.jpg",
+    "title": "CapCut",
+    "companyName": "ByteDance",
+    "id": 7,
+    "description": "CapCut is a free, all-in-one video editing application that is immensely popular, especially for creating content for short-form video platforms like TikTok and Instagram Reels.\n\nDeveloped by ByteDance (the parent company of TikTok), it's known for its user-friendly interface and powerful, professional-level editing tools.\n\nThe app offers a vast library of trendy music, sound effects, stickers, and text templates that are regularly updated to keep up with current viral content.\n\nIts core features include precision cutting, splitting, adjusting playback speed (slow-motion, speed ramps), and adding keyframe animations.\n\nAdvanced features like chroma key (green screen effect), stabilization, and high-quality resolution exports are available even in the free version.\n\nCapCut's AI features, such as automatic caption generation, background removal, and face/body retouching, significantly simplify the editing process.\n\nUsers can access a massive collection of filters, effects, and transitions to give their videos a polished, professional look.\n\nThe app supports layering multiple video and image tracks, allowing for complex video compositions and picture-in-picture effects.\n\nIt is one of the most accessible tools for video content creation, enabling both beginners and advanced users to produce engaging videos quickly.\n\nCapCut is available as a mobile app (iOS and Android) and also as a desktop version (Windows and macOS) for more intensive projects.",
+    "size": 210,
+    "reviews": "8.5M",
     "ratingAvg": 4.6,
-    "downloads": "100M",
+    "downloads": "800M",
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 180000 },
+      { "name": "3 star", "count": 420000 },
+      { "name": "4 star", "count": 2100000 },
+      { "name": "5 star", "count": 5700000 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/premium-vector/vector-linkedin-apps-logo-rounded-asset-isolated_1004619-457.jpg?semt=ais_hybrid&w=740&q=80",
+    "title": "LinkedIn",
+    "companyName": "Microsoft Corporation",
+    "id": 8,
+    "description": "LinkedIn is the world's largest professional networking platform, primarily focused on career development, job seeking, and professional connections.\n\nIt allows users to create detailed professional profiles that act as an online resume, showcasing their work experience, skills, and educational background.\n\nUsers connect with colleagues, industry peers, and potential employers, building a professional network that is essential for career growth.\n\nThe platform includes a massive job board feature, allowing users to search and apply for jobs globally, often with an 'Easy Apply' option.\n\nCompanies use LinkedIn for recruitment, posting job openings, and conducting talent searches, making it a critical HR tool.\n\nIt hosts professional content, articles, and industry news, enabling users to stay informed and demonstrate their expertise in their field.\n\nLinkedIn Learning (formerly Lynda.com) provides thousands of online courses to help users acquire new skills and advance their careers.\n\nIt supports company pages, allowing businesses to post updates, share culture, and engage with their professional audience.\n\nThe platform's algorithms suggest relevant connections, groups, and content to enhance professional development.\n\nPremium subscriptions offer advanced features like seeing who viewed your profile, more in-depth hiring insights, and full access to LinkedIn Learning courses.",
+    "size": 170,
+    "reviews": "4.8M",
+    "ratingAvg": 4.6,
+    "downloads": "150M",
+    "ratings": [
+      { "name": "1 star", "count": 70000 },
+      { "name": "2 star", "count": 120000 },
+      { "name": "3 star", "count": 280000 },
+      { "name": "4 star", "count": 1400000 },
+      { "name": "5 star", "count": 2930000 }
+    ]
+  },
+  {
+    "image": "https://cdn.iconscout.com/icon/free/png-256/free-bitbucket-logo-icon-svg-download-png-2285049.png?f=webp",
+    "title": "Bitbucket",
+    "companyName": "Atlassian",
+    "id": 9,
+    "description": "Bitbucket is a web-based version control repository hosting service, primarily catering to teams using Git and Mercurial for software development.\n\nIt is one of the main competitors to GitHub and GitLab, especially popular among enterprise users for its strong integration with other Atlassian products.\n\nBitbucket offers both public and private repositories, though it historically emphasized private repositories for commercial and internal corporate use.\n\nIts deep integration with tools like Jira (project management) and Confluence (documentation) makes it a preferred choice in the Atlassian ecosystem.\n\nFeatures include pull requests, in-line commenting, and merge checks to ensure a high standard of code review and collaboration.\n\nBitbucket Pipelines is its built-in CI/CD service, allowing teams to automate testing, building, and deploying code directly from the repository.\n\nIt also provides features for bug tracking, smart mirroring for global teams, and granular permission controls.\n\nThe platform supports Git LFS (Large File Storage) for managing large binary files, which is essential in game development or design projects.\n\nBitbucket's interface is designed to be highly intuitive for team collaboration, focusing on transparency and traceability in the development process.\n\nIt provides various hosting options, including Bitbucket Cloud (SaaS) and Bitbucket Data Center (self-managed) for maximum flexibility and control.",
+    "size": 70,
+    "reviews": "50K",
+    "ratingAvg": 4.4,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 17000 },
+      { "name": "5 star", "count": 25000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/?size=1200&id=118497&format=png",
+    "title": "Facebook",
+    "companyName": "Meta Platforms Inc.",
+    "id": 10,
+    "description": "Facebook is the world's largest social media network, connecting billions of users globally for personal and professional interaction.\n\nIt allows users to share text posts, photos, videos, and live streams, as well as share and react to content from others.\n\nCore features include news feed updates, profiles, groups, and Pages for businesses and organizations.\n\nFacebook Messenger is its integrated messaging service, facilitating text, voice, and video calls between users.\n\nThe Groups feature is a key component, enabling communities to form around shared interests, hobbies, or professional affiliations.\n\nFacebook Marketplace provides a platform for buying and selling goods locally, competing with dedicated classifieds websites.\n\nIt is a dominant advertising platform, offering highly targeted ad options based on user demographics and activity.\n\nUsers can create and attend events, and the platform often serves as a primary tool for social event planning and organization.\n\nFacebook's business tools extend to small and large businesses, providing analytics and engagement features for their Pages.\n\nDespite competition, it remains an essential channel for many to stay connected with family and friends and consume news and entertainment.",
+    "size": 280,
+    "reviews": "45M",
+    "ratingAvg": 4.0,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 1500000 },
+      { "name": "2 star", "count": 2200000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 8500000 },
+      { "name": "5 star", "count": 28800000 }
+    ]
+  },
+  {
+    "image": "https://png.pngtree.com/png-vector/20230225/ourmid/pngtree-whatsapp-icon-png-image_6618451.png",
+    "title": "WhatsApp",
+    "companyName": "Meta Platforms Inc.",
+    "id": 11,
+    "description": "WhatsApp is a globally used, free, cross-platform instant messaging and Voice over IP (VoIP) service owned by Meta Platforms.\n\nIt allows users to send text and voice messages, make voice and video calls, and share images, documents, user locations, and other media.\n\nThe platform is known for its end-to-end encryption, ensuring that only the sender and recipient can read or listen to the messages, providing strong privacy.\n\nGroup chat functionality allows multiple users to communicate simultaneously, making it popular for family, friends, and small community organization.\n\nWhatsApp Status allows users to share text, photos, videos, and GIF updates that disappear after 24 hours, similar to Stories on other platforms.\n\nWhatsApp Business is a dedicated version designed for small businesses to communicate directly with customers, providing tools for quick replies and product catalogues.\n\nIt utilizes your phone's internet connection (Wi-Fi or mobile data) to send messages and make calls, avoiding standard SMS and call charges.\n\nUsers can access WhatsApp on desktop via the web version or a dedicated app, synchronizing chats across their devices.\n\nThe app supports large file sharing, and the quality of voice and video calls is generally high, even on slower internet connections.\n\nIt is highly popular in many countries outside of the US, often serving as the primary method of digital communication for billions of people.",
+    "size": 115,
+    "reviews": "60M",
+    "ratingAvg": 4.3,
+    "downloads": "6B",
+    "ratings": [
+      { "name": "1 star", "count": 1800000 },
+      { "name": "2 star", "count": 2500000 },
+      { "name": "3 star", "count": 5500000 },
+      { "name": "4 star", "count": 15000000 },
+      { "name": "5 star", "count": 35200000 }
+    ]
+  },
+  {
+    "image": "https://cdn.iconscout.com/icon/free/png-256/free-gitlab-icon-svg-download-png-1175194.png?f=webp",
+    "title": "GitLab",
+    "companyName": "GitLab Inc.",
+    "id": 12,
+    "description": "GitLab is a comprehensive platform that covers the entire DevOps lifecycle, providing a single application for planning, coding, security, and deployment.\n\nUnlike platforms that focus just on code hosting (like GitHub), GitLab offers a complete 'DevOps Platform in a single application,' from project planning to monitoring.\n\nIt uses Git for version control, allowing developers to manage their source code repositories privately or publicly.\n\nIts integrated Continuous Integration/Continuous Delivery (CI/CD) tool is a major highlight, enabling automated testing and deployment right out of the box.\n\nGitLab provides powerful project management tools, including issue tracking, milestones, and Kanban-style issue boards.\n\nIt features security testing tools (Static Application Security Testing - SAST, Dynamic Application Security Testing - DAST) built into the development workflow.\n\nUsers can self-host their own GitLab instance (GitLab Community Edition and Enterprise Edition) or use the hosted cloud service (GitLab.com).\n\nIt emphasizes transparency and collaboration, offering features like code review, merge requests, and a built-in wiki for documentation.\n\nThe platform supports a variety of deployment strategies and can integrate with numerous cloud providers and external tools.\n\nGitLab is widely adopted by large enterprises and open-source projects for its all-in-one approach to the software development process.",
+    "size": 80,
+    "reviews": "100K",
+    "ratingAvg": 4.5,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 13000 },
+      { "name": "4 star", "count": 30000 },
+      { "name": "5 star", "count": 50000 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR8TT6aumgP42eVIgHt0HgL6-6jMOKZnb9KQ&s",
+    "title": "Google Photos",
+    "companyName": "Google LLC",
+    "id": 13,
+    "description": "Google Photos is a cloud-based photo and video sharing and storage service that provides a smart and secure way to back up your memories.\n\nIts key feature is its powerful search capability, which uses AI to recognize people, places, objects, and concepts within your images without manual tagging.\n\nIt automatically organizes photos and videos into timelines, albums, and 'Memories,' creating curated collections of past events.\n\nUsers can access their entire photo library seamlessly across all devices, including phones, tablets, and web browsers.\n\nThe service offers intelligent editing tools, including filters, cropping, and advanced adjustments, and can suggest automatic enhancements to pictures.\n\nGoogle Photos facilitates easy sharing with individuals and groups, and users can create shared albums where everyone can contribute photos.\n\nThe 'Partner Sharing' feature allows users to automatically share their entire photo library, or a filtered version, with a trusted partner.\n\nIt helps free up space on mobile devices by securely backing up photos and then deleting the local copies.\n\nThe app includes tools for creating animations, collages, and cinematic photos, adding a creative dimension to memory preservation.\n\nGoogle Photos is integrated with Google Drive and other Google services, making it a central hub for media management within the Google ecosystem.",
+    "size": 110,
+    "reviews": "7.5M",
+    "ratingAvg": 4.7,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 1800000 },
+      { "name": "5 star", "count": 5370000 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-TB9d5YXwtKhv4NWbpeTBVveYvcxu9gMJng&s",
+    "title": "Postman",
+    "companyName": "Postman, Inc.",
+    "id": 14,
+    "description": "Postman is a popular API (Application Programming Interface) platform used by developers to build, test, design, and mock APIs easily and efficiently.\n\nIt started as a simple browser extension and grew into a powerful standalone application that simplifies every stage of the API lifecycle.\n\nDevelopers primarily use it to make various types of HTTP requests (GET, POST, PUT, DELETE, etc.) and inspect the responses from API endpoints.\n\nPostman allows users to organize their requests into Collections, which can be run sequentially for automated testing and documentation.\n\nIt supports scripting for pre-request steps and post-response validation, making it an excellent tool for writing API integration tests.\n\nCollaboration is a key feature, allowing teams to share collections, environments, and mock servers within the Postman Workspace.\n\nIt supports environment variables, enabling users to switch quickly between different setups like development, staging, and production environments.\n\nPostman can automatically generate API documentation based on the collections, which helps keep the documentation in sync with the live code.\n\nThe platform includes features for mocking servers, allowing front-end and back-end teams to work in parallel without waiting for the full API implementation.\n\nIts comprehensive feature set has made it the industry-standard tool for API testing and development workflows across small and large engineering teams.",
+    "size": 65,
+    "reviews": "150K",
+    "ratingAvg": 4.5,
+    "downloads": "8M",
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 7000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 45000 },
+      { "name": "5 star", "count": 80000 }
+    ]
+  },
+  {
+    "image": "https://static.vecteezy.com/system/resources/previews/021/495/942/non_2x/tiktok-logo-icon-free-png.png",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "id": 15,
+    "description": "TikTok is the world's leading destination for short-form mobile videos, known for its highly engaging and personalized content feed, the 'For You Page' (FYP).\n\nThe platform allows users to create and share videos ranging from 15 seconds to 10 minutes, often featuring music, dance, comedy, and creative expressions.\n\nIts powerful, proprietary algorithm quickly learns user preferences, delivering a continuous stream of relevant and captivating content, driving massive user engagement.\n\nTikTok is a major cultural force, constantly generating viral trends, sounds, and challenges that influence music, fashion, and social behavior globally.\n\nThe app provides an extensive set of easy-to-use creative tools, including filters, effects, sound clips, and text overlays, simplifying the video production process.\n\nMonetization features, such as the Creator Fund, LIVE Gifts, and brand partnerships, enable popular creators to earn income from their content.\n\nIt has developed into a significant platform for marketing and business, with companies using it to reach younger demographics through creative campaigns.\n\nDuet and Stitch features encourage user interaction and content remixing, fostering a highly collaborative content ecosystem.\n\nTikTok's live streaming feature allows creators to connect with their audience in real-time, hosting Q&A sessions and virtual events.\n\nDespite regulatory scrutiny, its dominant position in short-form video has forced competitors to adopt similar formats like Instagram Reels and YouTube Shorts.",
+    "size": 190,
+    "reviews": "30M",
+    "ratingAvg": 4.4,
+    "downloads": "3B",
+    "ratings": [
+      { "name": "1 star", "count": 1000000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "3 star", "count": 3000000 },
+      { "name": "4 star", "count": 7000000 },
+      { "name": "5 star", "count": 17500000 }
+    ]
+  },
+  {
+    "image": "https://static.vecteezy.com/system/resources/previews/032/329/171/non_2x/canva-icon-logo-symbol-free-png.png",
+    "title": "Canva",
+    "companyName": "Canva Pty Ltd",
+    "id": 16,
+    "description": "Canva is an immensely popular online graphic design tool that simplifies visual content creation for non-designers and professionals alike.\n\nIts key strength lies in its intuitive drag-and-drop interface, making it easy to design social media graphics, presentations, posters, and documents.\n\nCanva provides a massive library of customizable templates, stock photos, illustrations, fonts, and icons for virtually any design need.\n\nIt is widely used by marketers, small business owners, students, and educators for its accessibility and comprehensive feature set.\n\nCollaboration features allow teams to work on designs together in real-time and provide feedback, streamlining the creative process.\n\nCanva Pro offers premium features, including a Brand Kit (for consistent colors and logos), background removal, and more advanced content libraries.\n\nThe platform supports various file formats for export and allows users to create print products, websites, and video edits.\n\nCanva's presentation mode includes features like speaker notes and remote controls, making it a strong competitor to traditional presentation software.\n\nIt has expanded its capabilities into video editing and document creation (Canva Docs), positioning itself as an all-in-one visual communication tool.\n\nUsers can integrate Canva with various other platforms and apps, enhancing its utility across different workflows and publishing channels.",
+    "size": 130,
+    "reviews": "4.5M",
+    "ratingAvg": 4.8,
+    "downloads": "200M",
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 70000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 3430000 }
+    ]
+  },
+  {
+    "image": "https://static.vecteezy.com/system/resources/thumbnails/038/600/554/small_2x/adobe-photoshop-logos-adobe-icons-abstract-art-free-vector.jpg",
+    "title": "Adobe Photoshop",
+    "companyName": "Adobe Inc.",
+    "id": 17,
+    "description": "Adobe Photoshop is the industry-standard software for raster graphic editing, manipulation, and digital art creation.\n\nIt is an indispensable tool for photographers, graphic designers, web designers, and digital artists worldwide due to its vast set of professional features.\n\nPhotoshop allows users to retouch, composite, and transform photographs, offering non-destructive editing through layers and masks.\n\nKey functionalities include advanced selection tools, color correction, blending modes, and a massive library of customizable filters and effects.\n\nThe software supports both 2D and 3D image manipulation, as well as video editing capabilities within the timeline panel.\n\nAdobe continually integrates powerful AI features, like Generative Fill and Neural Filters, to automate complex tasks and expand creative possibilities.\n\nIt uses its proprietary PSD and PSB file formats to preserve layers, channels, and other editing features for future work.\n\nPhotoshop is part of the Adobe Creative Cloud suite, ensuring seamless workflow integration with other programs like Illustrator and InDesign.\n\nAvailable versions include the full desktop application, Photoshop Express for mobile, and Photoshop on the iPad, offering flexibility across devices.\n\nThe sheer depth of its features and tools provides unparalleled control over image composition and detailed manipulation for any digital project.",
+    "size": 350,
+    "reviews": "1.5M",
+    "ratingAvg": 4.3,
+    "downloads": "50M",
     "ratings": [
       { "name": "1 star", "count": 50000 },
       { "name": "2 star", "count": 100000 },
       { "name": "3 star", "count": 250000 },
-      { "name": "4 star", "count": 1000000 },
-      { "name": "5 star", "count": 3100000 }
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 700000 }
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Gmail_icon_%282020%29.svg",
-    "title": "Gmail",
-    "companyName": "Google LLC",
-    "id": 5,
-    "description": "Gmail is Google's powerful email platform with smart sorting, spam protection, and integration with Meet and Drive. It offers AI-powered smart replies and organization features.",
-    "size": 110,
-    "reviews": "6M",
-    "ratingAvg": 4.5,
-    "downloads": "150M",
-    "ratings": [
-      { "name": "1 star", "count": 80000 },
-      { "name": "2 star", "count": 120000 },
-      { "name": "3 star", "count": 300000 },
-      { "name": "4 star", "count": 1500000 },
-      { "name": "5 star", "count": 4000000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/Google_Maps_icon.png",
-    "title": "Google Maps",
-    "companyName": "Google LLC",
-    "id": 6,
-    "description": "Google Maps provides navigation, live traffic updates, street views, and business information. It also supports AR-based directions with 'Live View'.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg",
+    "title": "Telegram",
+    "companyName": "Telegram FZ LLC",
+    "id": 18,
+    "description": "Telegram is a cloud-based, cross-platform, encrypted instant messaging service known for its speed, security, and powerful channel features.\n\nIt is distinct from other messaging apps due to its cloud-based synchronization, allowing users to access messages from any device instantly.\n\nTelegram offers both regular chats and 'Secret Chats' which use end-to-end encryption and can be programmed to self-destruct.\n\nA key feature is its support for massive group chats (up to 200,000 members) and 'Channels' which can be used for broadcasting messages to unlimited audiences.\n\nUsers can send large files (up to 2 GB each) of any type, and the platform has no storage limits on its cloud for chat history.\n\nIt supports the creation of powerful custom bots, which can be used for tasks like accepting payments, playing games, or providing automated customer support.\n\nTelegram's open API and protocol are free for developers, encouraging the creation of third-party clients and applications.\n\nThe app emphasizes privacy, allowing users to use a username instead of a phone number to interact with others.\n\nIts interface is highly customizable, and users can create and share custom themes and sticker packs.\n\nTelegram is often chosen by large communities and news organizations for its broadcasting capabilities and resistance to censorship.",
     "size": 140,
-    "reviews": "10M",
+    "reviews": "15M",
     "ratingAvg": 4.5,
-    "downloads": "200M",
+    "downloads": "1B",
     "ratings": [
-      { "name": "1 star", "count": 150000 },
-      { "name": "2 star", "count": 250000 },
-      { "name": "3 star", "count": 600000 },
-      { "name": "4 star", "count": 3000000 },
-      { "name": "5 star", "count": 6000000 }
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 9700000 }
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest_logo_%282017%29.svg",
-    "title": "Pinterest",
-    "companyName": "Pinterest, Inc.",
-    "id": 7,
-    "description": "Pinterest is a visual discovery and idea-saving platform where users can pin and share creative inspiration for projects, recipes, and designs.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMdM9MEQ0ExL1PmInT3U5I8v63YXBEdoIT0Q&s",
+    "title": "ChatGPT",
+    "companyName": "OpenAI",
+    "id": 19,
+    "description": "ChatGPT (Chat Generative Pre-trained Transformer) is a prominent generative AI chatbot developed by OpenAI, based on the GPT large language model series.\n\nIts primary function is to engage in human-like conversational dialogue, providing detailed, coherent, and contextually relevant responses to user prompts.\n\nChatGPT is capable of a wide range of tasks, including answering complex questions, writing essays and emails, summarizing texts, and translating languages.\n\nIt excels at code generation and debugging, serving as a powerful assistant for programmers across various coding languages.\n\nThe model is trained on a massive dataset of text and code, allowing it to understand nuances in human language and produce creative content.\n\nIt supports a continuous conversation flow, remembering previous turns in the dialogue, which enables follow-up questions and refined interactions.\n\nUsers can access ChatGPT through a web interface, as well as dedicated mobile applications on iOS and Android platforms.\n\nIntegration with third-party plugins (or GPTs) expands its functionality, allowing it to interact with external services and data sources.\n\nPaid subscriptions (ChatGPT Plus) offer access to the most advanced models (e.g., GPT-4), faster response times, and early access to new features.\n\nIt has profoundly impacted various industries, driving innovation in customer service, content creation, education, and software development.",
     "size": 90,
+    "reviews": "5M",
+    "ratingAvg": 4.6,
+    "downloads": "80M",
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 350000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 3200000 }
+    ]
+  },
+  {
+    "image": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/google-gemini-icon.png",
+    "title": "Gemini",
+    "companyName": "Google LLC",
+    "id": 20,
+    "description": "Gemini is Google's family of multimodal large language models and the name of its AI-powered assistant, designed to be helpful across a wide range of tasks.\n\nAs an AI assistant, Gemini can process and generate responses based on text, code, images, audio, and video input, making it highly versatile.\n\nIt is positioned as a successor to Google Assistant, offering more conversational, contextual, and advanced reasoning capabilities.\n\nGemini is deeply integrated with Google's ecosystem, allowing it to pull information from apps like Gmail, Google Docs, and Google Maps to provide personalized and accurate responses.\n\nUsers can access it through a dedicated mobile app on Android and iOS, or through a web interface, often replacing the standard Google Assistant functionality on mobile.\n\nIts 'Gemini Apps' or extensions enable it to connect with external services like Spotify and YouTube, expanding its real-world utility.\n\nGemini models come in different sizes (Nano, Flash, Pro, Ultra) to run efficiently across devices, from mobile phones to massive data centers.\n\nIt is designed to help with creative tasks, such as generating images, drafting complex documents, and summarizing long articles efficiently.\n\nThe Pro version offers access to the most advanced features and larger context windows for handling extensive data and queries.\n\nGoogle emphasizes its responsible AI development, ensuring the tool is both powerful and adheres to safety guidelines when generating information.",
+    "size": 105,
     "reviews": "2.5M",
-    "ratingAvg": 4.4,
+    "ratingAvg": 4.7,
     "downloads": "50M",
     "ratings": [
       { "name": "1 star", "count": 40000 },
       { "name": "2 star", "count": 70000 },
-      { "name": "3 star", "count": 180000 },
-      { "name": "4 star", "count": 700000 },
-      { "name": "5 star", "count": 1510000 }
+      { "name": "3 star", "count": 160000 },
+      { "name": "4 star", "count": 630000 },
+      { "name": "5 star", "count": 1600000 }
     ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/LinkedIn_Logo.svg",
-    "title": "LinkedIn",
-    "companyName": "Microsoft Corporation",
-    "id": 8,
-    "description": "LinkedIn is a professional networking platform used for job searching, hiring, and career growth. It integrates learning courses and professional branding tools.",
-    "size": 150,
-    "reviews": "3.2M",
-    "ratingAvg": 4.6,
-    "downloads": "70M",
-    "ratings": [
-      { "name": "1 star", "count": 30000 },
-      { "name": "2 star", "count": 60000 },
-      { "name": "3 star", "count": 150000 },
-      { "name": "4 star", "count": 800000 },
-      { "name": "5 star", "count": 2160000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9f/LastPass_Logo.svg",
-    "title": "LastPass Password Manager",
-    "companyName": "LastPass",
-    "id": 9,
-    "description": "LastPass stores and auto-fills your passwords securely in an encrypted vault. It includes password generation, notes, and dark web monitoring.",
-    "size": 55,
-    "reviews": "400K",
-    "ratingAvg": 4.4,
-    "downloads": "10M",
-    "ratings": [
-      { "name": "1 star", "count": 10000 },
-      { "name": "2 star", "count": 20000 },
-      { "name": "3 star", "count": 40000 },
-      { "name": "4 star", "count": 120000 },
-      { "name": "5 star", "count": 210000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Spotify_logo_vertical_black.svg",
-    "title": "Spotify",
-    "companyName": "Spotify AB",
-    "id": 10,
-    "description": "Spotify is a digital music and podcast streaming service with millions of tracks. It offers personalized playlists, offline mode, and cross-device playback.",
-    "size": 160,
-    "reviews": "8M",
-    "ratingAvg": 4.5,
-    "downloads": "200M",
-    "ratings": [
-      { "name": "1 star", "count": 100000 },
-      { "name": "2 star", "count": 200000 },
-      { "name": "3 star", "count": 500000 },
-      { "name": "4 star", "count": 2500000 },
-      { "name": "5 star", "count": 4700000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Netflix_2015_logo.svg",
-    "title": "Netflix",
-    "companyName": "Netflix Inc.",
-    "id": 11,
-    "description": "Netflix is a global streaming service offering movies, series, and documentaries. It supports personalized recommendations and offline viewing.",
-    "size": 210,
-    "reviews": "12M",
-    "ratingAvg": 4.4,
-    "downloads": "300M",
-    "ratings": [
-      { "name": "1 star", "count": 120000 },
-      { "name": "2 star", "count": 200000 },
-      { "name": "3 star", "count": 450000 },
-      { "name": "4 star", "count": 2500000 },
-      { "name": "5 star", "count": 7000000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Facebook_Logo_2023.png",
-    "title": "Facebook",
-    "companyName": "Meta Platforms Inc.",
-    "id": 12,
-    "description": "Facebook connects users with friends and communities worldwide. It offers posts, stories, live streaming, and marketplace features for social interaction.",
-    "size": 220,
-    "reviews": "20M",
-    "ratingAvg": 4.2,
-    "downloads": "1B",
-    "ratings": [
-      { "name": "1 star", "count": 500000 },
-      { "name": "2 star", "count": 700000 },
-      { "name": "3 star", "count": 1000000 },
-      { "name": "4 star", "count": 3500000 },
-      { "name": "5 star", "count": 14500000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/58/Twitter_Logo_2023.svg",
-    "title": "X (Twitter)",
-    "companyName": "X Corp.",
-    "id": 13,
-    "description": "X (formerly Twitter) is a social media platform for sharing short posts, known as tweets. It now includes audio spaces, video content, and premium verification features.",
-    "size": 95,
-    "reviews": "7M",
-    "ratingAvg": 4.1,
-    "downloads": "250M",
-    "ratings": [
-      { "name": "1 star", "count": 150000 },
-      { "name": "2 star", "count": 300000 },
-      { "name": "3 star", "count": 700000 },
-      { "name": "4 star", "count": 2000000 },
-      { "name": "5 star", "count": 3850000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Google_Photos_icon.svg",
-    "title": "Google Photos",
-    "companyName": "Google LLC",
-    "id": 14,
-    "description": "Google Photos backs up and organizes your photos and videos securely in the cloud. It features AI-based search, sharing, and smart albums.",
-    "size": 100,
-    "reviews": "5M",
-    "ratingAvg": 4.7,
-    "downloads": "300M",
-    "ratings": [
-      { "name": "1 star", "count": 30000 },
-      { "name": "2 star", "count": 50000 },
-      { "name": "3 star", "count": 120000 },
-      { "name": "4 star", "count": 800000 },
-      { "name": "5 star", "count": 4000000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/d/db/Instagram_logo_2022.svg",
-    "title": "Instagram",
-    "companyName": "Meta Platforms Inc.",
-    "id": 15,
-    "description": "Instagram is a visual social media platform focused on photos, videos, and reels. It includes messaging, stories, and business tools for creators.",
-    "size": 150,
-    "reviews": "18M",
-    "ratingAvg": 4.4,
-    "downloads": "1B",
-    "ratings": [
-      { "name": "1 star", "count": 400000 },
-      { "name": "2 star", "count": 700000 },
-      { "name": "3 star", "count": 1200000 },
-      { "name": "4 star", "count": 3500000 },
-      { "name": "5 star", "count": 13000000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/TikTok_logo.svg",
-    "title": "TikTok",
-    "companyName": "ByteDance",
-    "id": 16,
-    "description": "TikTok is a short-form video platform where users create and share 15–60 second videos with music and effects. It is popular for trends and creative expression.",
-    "size": 170,
-    "reviews": "25M",
-    "ratingAvg": 4.5,
-    "downloads": "1B",
-    "ratings": [
-      { "name": "1 star", "count": 700000 },
-      { "name": "2 star", "count": 900000 },
-      { "name": "3 star", "count": 1500000 },
-      { "name": "4 star", "count": 4500000 },
-      { "name": "5 star", "count": 17000000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Zoom_Communications_Logo.svg",
-    "title": "Zoom",
-    "companyName": "Zoom Video Communications",
-    "id": 17,
-    "description": "Zoom is a video conferencing platform known for its simplicity and reliability. It offers breakout rooms, chat, whiteboards, and screen sharing for meetings and webinars.",
-    "size": 120,
-    "reviews": "9M",
-    "ratingAvg": 4.6,
-    "downloads": "250M",
-    "ratings": [
-      { "name": "1 star", "count": 60000 },
-      { "name": "2 star", "count": 100000 },
-      { "name": "3 star", "count": 250000 },
-      { "name": "4 star", "count": 1200000 },
-      { "name": "5 star", "count": 7600000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Microsoft_Office_logo_%282019%E2%80%93present%29.svg",
-    "title": "Microsoft Office",
-    "companyName": "Microsoft Corporation",
-    "id": 18,
-    "description": "Microsoft Office includes Word, Excel, PowerPoint, and Outlook. The mobile version supports document creation, editing, and cloud sync via OneDrive.",
-    "size": 250,
-    "reviews": "4M",
-    "ratingAvg": 4.5,
-    "downloads": "150M",
-    "ratings": [
-      { "name": "1 star", "count": 80000 },
-      { "name": "2 star", "count": 120000 },
-      { "name": "3 star", "count": 250000 },
-      { "name": "4 star", "count": 1000000 },
-      { "name": "5 star", "count": 2550000 }
-    ]
-  },
-  {
-  "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Canva_logo.svg",
-  "title": "Canva",
-  "companyName": "Canva Pty Ltd",
-  "id": 19,
-  "description": "Canva is a graphic design tool for creating social media posts, flyers, and presentations. It offers templates, drag-and-drop tools, and collaboration options.",
-  "size": 100,
-  "reviews": "2M",
-  "ratingAvg": 4.8,
-  "downloads": "80M",
-  "ratings": [
-    { "name": "1 star", "count": 20000 },
-    { "name": "2 stars", "count": 15000 },
-    { "name": "3 stars", "count": 30000 },
-    { "name": "4 stars", "count": 150000 },
-    { "name": "5 stars", "count": 1830000 }
-  ]
-},
-{
-  "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Zoom_Communications_Logo.svg",
-  "title": "Zoom",
-  "companyName": "Zoom Video Communications, Inc.",
-  "id": 20,
-  "description": "Zoom is a video conferencing platform that allows users to host online meetings, webinars, and group video calls. It supports screen sharing, recording, and real-time collaboration.",
-  "size": 180,
-  "reviews": "3M",
-  "ratingAvg": 4.4,
-  "downloads": "200M",
-  "ratings": [
-    { "name": "1 star", "count": 80000 },
-    { "name": "2 stars", "count": 50000 },
-    { "name": "3 stars", "count": 120000 },
-    { "name": "4 stars", "count": 700000 },
-    { "name": "5 stars", "count": 2050000 }
-  ]
-}
+  }
 ]
-

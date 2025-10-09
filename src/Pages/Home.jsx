@@ -29,15 +29,6 @@ const Home = () => {
             </div>
             <Link to='/apps' className="btn mb-8 text-white bg-[linear-gradient(125.07deg,#632ee3,#9f62f2_100%)]">Show All</Link>
 
-
-            {/* { loading ? ( <SkeletonLoader /> ) : ( 
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
-                    {
-                        featuredProducts.map(product => ( <ProductCard key={product.id} product={product} />))
-                    }
-            </div>
-            )} */}
-
         </div>
     )
 }

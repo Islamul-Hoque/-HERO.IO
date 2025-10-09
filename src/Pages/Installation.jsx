@@ -32,7 +32,7 @@ const Installation = () => {
     removeFromInstalledApps(id) 
     setInstalledApps(prev => prev.filter(app => app.id !== id)) 
     }
-    
+
     if (loading) return <LoadingSpinner />;
     return (
         <div className='m-8'>
