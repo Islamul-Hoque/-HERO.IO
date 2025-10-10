@@ -11,13 +11,12 @@ import { loadInstalledApps, saveInstalledApps } from '../Utils/LocalStorage';
 import ErrorApp from './ErrorApp';
 
 const AppDetails = () => {
-    const { apps, loading, error } = useApps()
+    const { apps } = useApps()
     const { id }= useParams()
 
     const app = apps.find(app => app.id == Number(id));
     const [isInstalled, setIsInstalled] = useState(() =>  loadInstalledApps().some(app => app.id === Number(id)));
 
-    // if (loading) return <p>Loading.......</p>
     if(!app) return <ErrorApp />;
     const { image, title, companyName, downloads, ratingAvg, reviews, size, ratings, description } = app || {}
 
@@ -54,7 +53,6 @@ const AppDetails = () => {
                 </div>
             </div>
 
-            {/* Chart */}
             <div className='mt-10 border-t-1 border-b-1 py-4 border-[#00193133]'>
                 <h3 className='text-[2rem] font-bold text-[#001931]'>Ratings</h3>
                 <div className=' h-80 flex justify-items-start'>
@@ -71,7 +69,6 @@ const AppDetails = () => {
                 </div>
             </div>
 
-            {/* Description */}
             <div className='my-8'>
                 <h2 className='font-bold text-[1.5rem] text-[#001931] '>Description</h2>
                 <p className='text-[#627382] mt-2'> {description} </p>

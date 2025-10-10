@@ -7,7 +7,7 @@ import useApps from '../Hooks/useApps'
 import LoadingSpinner from './LoadingSpinner'
 
 const Home = () => {
-    const { apps, loading, error } = useApps()
+    const { apps, loading } = useApps()
     const trendingApps = apps.slice(0, 8)
     if (loading) return <LoadingSpinner />;
     return (

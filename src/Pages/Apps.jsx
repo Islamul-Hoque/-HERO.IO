@@ -7,7 +7,7 @@ import LoadingSpinner from './LoadingSpinner';
 
 const Apps = () => {
     const [search, setSearch] = useState('')
-    const { apps, loading, searchLoading, error } = useApps(search)
+    const { apps, loading, searchLoading } = useApps(search)
 
     if (loading) return <LoadingSpinner />;
     return (
@@ -24,19 +24,19 @@ const Apps = () => {
                 </label>
             </div>
 
+            <div className='grid md:grid-cols-4 gap-4 mt-3 min-h-[200px]'>
+                {searchLoading ? ( <div className='col-span-4 flex justify-center items-center'>
+                                <LoadingSpinner />
+                            </div>) 
+                        : 
+                        apps.length > 0 ? (  apps.map((app) => <TrendingApps key={app.id} app={app} />) )
+                            : ( <div className='col-span-4 text-center'>
+                                    <h2 className='text-[#606060] font-bold text-[2.5rem]'>No App Found</h2>
+                                    <Link to='/' className='btn mb-8 mt-4 text-white bg-[linear-gradient(125.07deg,#632ee3,#9f62f2_100%)]'> Go Home </Link>
+                                </div>
+                )}
+            </div>
 
-        <div className='grid md:grid-cols-4 gap-4 mt-3 min-h-[200px]'>
-        {searchLoading ? ( <div className='col-span-4 flex justify-center items-center'>
-                        <LoadingSpinner />
-                    </div>) 
-                : 
-                apps.length > 0 ? (  apps.map((app) => <TrendingApps key={app.id} app={app} />) )
-                    : ( <div className='col-span-4 text-center'>
-                            <h2 className='text-[#606060] font-bold text-[2.5rem]'>No App Found</h2>
-                            <Link to='/' className='btn mb-8 mt-4 text-white bg-[linear-gradient(125.07deg,#632ee3,#9f62f2_100%)]'> Go Home </Link>
-                        </div>
-        )}
-    </div>
         </div>
     );
 };
