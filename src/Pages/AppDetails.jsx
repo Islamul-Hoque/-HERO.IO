@@ -22,8 +22,8 @@ const AppDetails = () => {
 
     return (
         <div className='m-8'>
-            <div className='flex flex-row gap-6 items-stretch h-auto'>
-                <div className='rounded-[0.5rem] flex items-center shadow bg-white'><img className="w-full px-[1rem] h-50" src={image} alt="" /></div>
+            <div className='flex flex-col md:flex-row gap-6 items-stretch h-auto'>
+                <div className='rounded-[0.5rem] flex justify-center items-center shadow bg-white'><img className="md:w-full px-[1rem] h-50" src={image} alt="" /></div>
                 <div className='flex-1 flex flex-col justify-between'>
                     <h2 className='text-[1.2rem] font-bold'>{title}</h2>
                     <div className='border-b-1 pb-6 mb-4 border-[#00193133]'>Developed by <span className='text-xl font-bold bg-[linear-gradient(125.07deg,#632ee3,#9f62f2_100%)] bg-clip-text text-transparent'>{companyName}</span></div>
