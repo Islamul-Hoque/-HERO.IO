@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 const useApps = (search = '') => {
     const [apps, setApps] = useState([])
     const [loading, setLoading] = useState(true)
-    const [ searchLoading, setSearchLoading ] = useState(false)
+    const [searchLoading, setSearchLoading] = useState(false)
 
     useEffect(() => {
         setLoading(true)
@@ -15,14 +15,14 @@ const useApps = (search = '') => {
     }, [])
 
     useEffect(() => {
-    setSearchLoading(true)
-    axios('../appsData.json')
-        .then(data => {
-            const allApps = data.data
+        setSearchLoading(true)
+        axios('../appsData.json')
+            .then(data => {
+                const allApps = data.data
 
             if (search.trim()) {
-                const filtered = allApps.filter(app => app.title.toLowerCase().includes(search.toLowerCase()))
-                setApps(filtered)
+                const filteredApps = allApps.filter(app => app.title.toLowerCase().includes(search.toLowerCase()))
+                setApps(filteredApps)
                 setSearchLoading(false)
             } else {
                 setApps(allApps)
@@ -33,7 +33,7 @@ const useApps = (search = '') => {
         .finally(() => {
             if (!search.trim()) setLoading(false) 
         })
-}, [search])
+    }, [search])
 
     return { apps, loading, searchLoading }
 }

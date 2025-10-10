@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useParams } from 'react-router';
 import { toast } from 'react-toastify';
-import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis, } from 'recharts'
+import { Bar, BarChart, ResponsiveContainer, Tooltip, XAxis, YAxis, } from 'recharts'
 
 import DownloadIcon from '../../src/assets/icon-downloads.png'
 import StarIcon from '../../src/assets/icon-ratings.png'
@@ -21,11 +21,11 @@ const AppDetails = () => {
     const { image, title, companyName, downloads, ratingAvg, reviews, size, ratings, description } = app || {}
 
     return (
-        <div className='m-8'>
+        <div className='mx-6 my-8 md:m-8'>
             <div className='flex flex-col md:flex-row gap-6 items-stretch h-auto'>
-                <div className='rounded-[0.5rem] flex justify-center items-center shadow bg-white'><img className="md:w-full px-[1rem] h-50" src={image} alt="" /></div>
+                <div className='rounded-[0.5rem] flex justify-center items-center shadow py-4 md:py-0 bg-white'><img className="md:w-full px-[1rem] h-50" src={image} alt="" /></div>
                 <div className='flex-1 flex flex-col justify-between'>
-                    <h2 className='text-[1.2rem] font-bold'>{title}</h2>
+                    <h2 className='text-[1.9rem] font-bold'>{title}</h2>
                     <div className='border-b-1 pb-6 mb-4 border-[#00193133]'>Developed by <span className='text-xl font-bold bg-[linear-gradient(125.07deg,#632ee3,#9f62f2_100%)] bg-clip-text text-transparent'>{companyName}</span></div>
                     <div className='flex gap-8'>
                         <div className='flex flex-col'>
@@ -54,22 +54,20 @@ const AppDetails = () => {
             </div>
 
             <div className='mt-10 border-t-1 border-b-1 py-4 border-[#00193133]'>
-                <h3 className='text-[2rem] font-bold text-[#001931]'>Ratings</h3>
+                <h3 className='text-[2rem] font-semibold text-[#001931]'>Ratings</h3>
                 <div className=' h-80 flex justify-items-start'>
                     <ResponsiveContainer width='100%' height='100%'>
                         <BarChart data={ratings} layout="vertical">
-                            {/* <CartesianGrid strokeDasharray='3 3' /> */}
                             <XAxis type="number" axisLine={false} tickLine={false} domain={[0, 'dataMax']}/>
                             <YAxis dataKey="name" type="category" reversed={true} axisLine={false} tickLine={false}/>
                             <Tooltip />
-                            {/* <Legend /> */}
                             <Bar dataKey='count' fill='#f97316' />
                         </BarChart>
                     </ResponsiveContainer>
                 </div>
             </div>
 
-            <div className='my-8'>
+            <div className=' mt-7 mb-8'>
                 <h2 className='font-bold text-[1.5rem] text-[#001931] '>Description</h2>
                 <p className='text-[#627382] mt-2'> {description} </p>
             </div>

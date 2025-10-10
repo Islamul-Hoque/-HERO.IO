@@ -13,7 +13,7 @@ const ErrorPage = () => {
                 <div className='flex justify-center items-center'><img className='w-[28%] mt-6 mb-2' src={Error404} alt="" /></div>
                 <p className='mb-3 font-bold text-[2.5rem]'>Oops, page not found!</p>
                 <p className='mb-3 text-[#627382]'>The page you are looking for is not available.</p>
-                <Link to='/apps' className="btn text-white bg-[linear-gradient(125.07deg,#632ee3,#9f62f2_100%)]">Go Back!</Link>
+                <Link to='/' className="btn text-white bg-[linear-gradient(125.07deg,#632ee3,#9f62f2_100%)]">Go Home</Link>
             </div>
 
             <Footer/>

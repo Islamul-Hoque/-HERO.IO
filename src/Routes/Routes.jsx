@@ -7,14 +7,12 @@ import Home from '../Pages/Home';
 import Apps from '../Pages/Apps';
 import Installation from '../Pages/Installation';
 import AppDetails from '../Pages/AppDetails';
-// import LoadingSpinner from '../Pages/LoadingSpinner';
 
 const router = createBrowserRouter([
     {
         path: "/",
         Component: Root,
         errorElement: <ErrorPage/> ,
-        // hydrateFallbackElement: <LoadingSpinner/>,
         children: [
             {   index: true, 
                 Component: Home 
@@ -36,4 +34,3 @@ const router = createBrowserRouter([
 ]);
 
 export default router;
-

@@ -9,8 +9,8 @@ With interactive charts, toast notifications, and local storage integration, **H
 ---
 
 ## 🛠 **Technologies Used**
-- ⚛️ React 18
-- 🛣️ React Router v6
+- ⚛️ React.js
+- 🛣️ React Router
 - 🎨 Tailwind CSS
 - 🌸 DaisyUI 
 - 📊 Recharts

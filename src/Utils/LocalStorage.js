@@ -12,9 +12,7 @@ export const loadInstalledApps = () => {
 export const saveInstalledApps = (singleApp) => {
     const installedApps = loadInstalledApps()
     try{
-        const isDuplicate = installedApps.some( app => app.id  === singleApp.id)
-        if(isDuplicate) return alert('Already added in Installed Apps ')
-            const updatedInstalledApps = [...installedApps, singleApp]
+        const updatedInstalledApps = [...installedApps, singleApp]
         localStorage.setItem('installedApps', JSON.stringify(updatedInstalledApps))
     }
     catch (err) {

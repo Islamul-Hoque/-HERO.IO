@@ -7,7 +7,7 @@ import { RiTwitterXFill } from "react-icons/ri";
 import { TiSocialFacebook } from "react-icons/ti";
 const Footer = () => {
     return (
-        <footer className=' bg-[#001931] p-10'>
+        <footer className=' bg-[#001931] px-6 py-10 md:p-10'>
             <div className='flex flex-col md:flex-row justify-between md:items-start text-white'>
                 <div className="flex flex-col gap-3">
                     <div className="flex items-center gap-2">
@@ -37,9 +37,9 @@ const Footer = () => {
                 <div>
                     <h2 className="mb-3 font-semibold ">Follow Us</h2>
                     <div className=" flex items-center gap-4 text-2xl">
-                        <Link to="#" className="hover:scale-110 transition-transform duration-200"> <RiTwitterXFill className="bg-white text-black p-1 rounded-full" /></Link>
-                        <Link to="#" className="hover:scale-110 transition-transform duration-200"> <TiSocialLinkedin className="bg-white text-black p-1 rounded-full" /> </Link>
-                        <Link to="#" className="hover:scale-110 transition-transform duration-200"> <TiSocialFacebook  className="bg-white text-black  rounded-full" /> </Link>
+                        <Link to="https://www.twitter.com/"  target="_blank"  className="hover:scale-110 transition-transform duration-200"> <RiTwitterXFill className="bg-white text-black p-1 rounded-full" /></Link>
+                        <Link to="https://www.linkedin.com/" target="_blank"  className="hover:scale-110 transition-transform duration-200"> <TiSocialLinkedin className="bg-white text-black p-1 rounded-full" /> </Link>
+                        <Link to="https://www.facebook.com/" target="_blank"  className="hover:scale-110 transition-transform duration-200"> <TiSocialFacebook  className="bg-white text-black  rounded-full" /> </Link>
                     </div>
                 </div>
             </div>

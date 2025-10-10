@@ -15,7 +15,7 @@ const Home = () => {
             <Banner/>
             <TrustedStats/>
 
-            <div className='m-8'>
+            <div className='m-6 md:m-8'>
                 <h2 className='text-[1.5rem] text-center text-[#001931] font-bold'>Trending Apps</h2>
                 <p className=' text-center text-[#627382]'>Explore All Trending Apps on the Market developed by us</p>
 
