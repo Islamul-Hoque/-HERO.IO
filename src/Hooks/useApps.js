@@ -16,7 +16,7 @@ const useApps = (search = '') => {
 
     useEffect(() => {
         setSearchLoading(true)
-        axios('../appsData.json')
+        axios('/appsData.json')
             .then(data => {
                 const allApps = data.data
 
