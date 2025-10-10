@@ -1,23 +1,19 @@
 # 🚀 HERO.IO
 
-## Description: 
-**HERO.IO**  is a modern web application for discovering and managing productivity apps. It features a hero banner, trending apps, detailed app statistics, installation management with localStorage, and instant notifications. Built with React, React Router v6, and Tailwind CSS, it offers a seamless and interactive user experience.
+## 📝 Description
+
+**HERO.IO** helps users explore trending productivity apps and manage them effortlessly.
+It brings together detailed app insights, one-click installation and removal, and a clean gradient design for a modern feel.
+With interactive charts, toast notifications, and local storage integration, **HERO.IO** ensures a smooth and enjoyable experience from start to finish.
 
 ---
 
-## 🌐 **Live Demo**
-[HERO.IO](https://hero-io-8bv.pages.dev/apps)
-
----
-
-## **Technologies Used**
+## 🛠 **Technologies Used**
 - ⚛️ React 18
 - 🛣️ React Router v6
 - 🎨 Tailwind CSS
+- 🌸 DaisyUI 
 - 📊 Recharts
 - 🔔 React Toastify
 
 ---
-
-
-

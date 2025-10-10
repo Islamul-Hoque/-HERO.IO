@@ -6,7 +6,7 @@ const useApps = (search = '') => {
     const [loading, setLoading] = useState(true)
     const [ searchLoading, setSearchLoading ] = useState(false)
     const [error, setError] = useState(null)
-    
+
     useEffect(() => {
         setLoading(true)
         axios('../appsData.json')
@@ -16,7 +16,7 @@ const useApps = (search = '') => {
     }, [])
 
     useEffect(() => {
-        setLoading(true)
+        setSearchLoading(true)
         axios('../appsData.json')
             .then( data => {
                 const allApps = data.data
@@ -24,6 +24,7 @@ const useApps = (search = '') => {
             if (search.trim()) {
                 const filtered = allApps.filter(app => app.title.toLowerCase().includes(search.toLowerCase()))
             setApps(filtered)
+            setSearchLoading(false)
             } 
             else {
             setApps(allApps)
